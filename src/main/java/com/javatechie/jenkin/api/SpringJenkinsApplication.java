@@ -23,7 +23,7 @@ public class SpringJenkinsApplication {
 
 	@PostConstruct
 	public void init(){
-		logger.info("init executing...");
+		logger.info("init executing hello, i add some new changes...");
 	}
 
 	public static void main(String[] args) {
