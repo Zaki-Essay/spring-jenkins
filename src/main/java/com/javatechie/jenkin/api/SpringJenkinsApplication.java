@@ -23,13 +23,13 @@ public class SpringJenkinsApplication {
 
 	@PostConstruct
 	public void init(){
-		logger.info("init executing hello, i add some new changes in init methode...");
+		logger.info("init executing hello, i add some new changes in **init** methode...");
 	}
 
 	public static void main(String[] args) {
 
 		SpringApplication.run(SpringJenkinsApplication.class, args);
-		logger.info("SpringJenkinsApplication executing, CI/CD...");
+		logger.info("SpringJenkinsApplication executing, **CI/CD**...");
 	}
 
 }
