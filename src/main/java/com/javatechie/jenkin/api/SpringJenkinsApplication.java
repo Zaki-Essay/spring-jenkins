@@ -13,7 +13,7 @@ import javax.annotation.PostConstruct;
 @RestController
 public class SpringJenkinsApplication {
 
-	public static Logger logger = LoggerFactory.getLogger(SpringJenkinsApplication.class);
+	public static Logger logger = LoggerFactory.getLogger(SpringJenkinsApplication.class)
 
 	/*
 	@GetMapping("/ping")
